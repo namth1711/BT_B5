@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="main">
+
+    <composable
+        android:id="@+id/main"
+        android:name="fpoly.namth.bt_b5.ui.GetLayout"
+        tools:composableName="GetLayout" />
+
+    <composable
+        android:id="@+id/bai5"
+        android:name="fpoly.namth.bt_b5.ui.Bai5"
+        tools:composableName="Bai5" />
+
+</navigation>
